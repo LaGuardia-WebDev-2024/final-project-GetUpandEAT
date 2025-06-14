@@ -4,7 +4,10 @@ body {
   padding-top: 30px;
   margin-left: 0px;
   margin-right: 0px;
+  font-size: 25px;
+  font-family: "Londrina Sketch", sans-serif;
 }
+
 /* ⬆⬆⬆⬆ Nav Bar Styling 
 ~~~~~ Taken From: 
 https://www.w3schools.com/css/css_navbar_horizontal.asp */
@@ -33,13 +36,14 @@ ul.nav li a {
 }
 
 ul.nav li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: #90d0ea;
 }
 
 ul.nav .active {
-  background-color: red;
+  background-color: #427abd;
 }
 
 h1 {
   width: 100%;
+  font-size: 50px;
 }
